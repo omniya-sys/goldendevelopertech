@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KINETIC | Career &amp; Internships</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&amp;family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-surface-variant": "#d9c3ad",
+                        "surface-container-high": "#2a2a2a",
+                        "outline-variant": "#534434",
+                        "tertiary-fixed": "#c6e7ff",
+                        "surface-container-highest": "#353534",
+                        "on-background": "#e5e2e1",
+                        "on-error": "#690005",
+                        "on-surface": "#e5e2e1",
+                        "surface-tint": "#ffb960",
+                        "tertiary": "#8dd3ff",
+                        "primary-fixed": "#ffddb8",
+                        "background": "#131313",
+                        "on-tertiary-container": "#004865",
+                        "on-tertiary-fixed-variant": "#004c6b",
+                        "primary-fixed-dim": "#ffb960",
+                        "secondary-container": "#623f0f",
+                        "tertiary-fixed-dim": "#81cfff",
+                        "tertiary-container": "#16bbff",
+                        "inverse-on-surface": "#313030",
+                        "on-primary": "#472a00",
+                        "secondary": "#f0bd82",
+                        "surface-container-low": "#1c1b1b",
+                        "inverse-primary": "#865300",
+                        "secondary-fixed": "#ffddb8",
+                        "surface-bright": "#3a3939",
+                        "primary-container": "#f49c04",
+                        "on-tertiary-fixed": "#001e2d",
+                        "error": "#ffb4ab",
+                        "on-primary-fixed": "#2b1700",
+                        "on-secondary": "#472a00",
+                        "on-error-container": "#ffdad6",
+                        "on-secondary-fixed": "#2b1700",
+                        "surface-container": "#201f1f",
+                        "inverse-surface": "#e5e2e1",
+                        "on-primary-container": "#603a00",
+                        "outline": "#a18d7a",
+                        "surface-variant": "#353534",
+                        "on-tertiary": "#00344b",
+                        "surface": "#131313",
+                        "primary": "#ffbf70",
+                        "secondary-fixed-dim": "#f0bd82",
+                        "on-primary-fixed-variant": "#653e00",
+                        "surface-dim": "#131313",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-secondary-fixed-variant": "#623f0f",
+                        "on-secondary-container": "#ddac72",
+                        "error-container": "#93000a"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"],
+                        "cairo": ["Cairo"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background: linear-gradient(135deg, #080808 0%, #1a1a1a 40%, #2a2a2a 70%, #3a3a38 100%);
+            min-height: 100vh;
+        }
+        .kinetic-blur-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, transparent 0%, #0e0e0e 100%);
+            pointer-events: none;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="font-body text-on-surface antialiased overflow-x-hidden">
+<div class="kinetic-blur-overlay"></div>
+<!-- Navigation Shell -->
+<nav class="fixed top-0 w-full bg-[#0e0e0e]/80 backdrop-blur-xl z-50 flex justify-center items-center py-6 px-8 w-full z-50">
+<div class="flex items-center gap-2"><img alt="Golden Developer Logo" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida/ADBb0ujR5WItpGC9wMlGAi5ya-VXcIBQT9skOIKsPO1JTi8EwZSrKwQgUU_QuKZlHwQYJ2tjTx5eb42pIcwbJHPqvV-vSXuxUp0aE0ts3e3rU2rrXHsnvF_H8af50Wln9CyrMEo8Xo5Yj4MrVq1HX_bhxZK8N1pwmblWZCT0-XBU3d5ydntA2ghXootpEgV76-K5hZlliiffFBrYdG0oZ8gtYbmLF1PVkO0XLcovTS25D3Z3z3RkFf_ILj-0ZXGxJE72bIODGIP0brZu8g"/></div>
+</nav>
+<!-- Main Content Area -->
+<main class="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-20">
+<div class="max-w-4xl w-full text-center space-y-12">
+<!-- Hero Content -->
+<div class="space-y-6">
+<div class="inline-flex items-center px-3 py-1 rounded-full border border-outline-variant/20 bg-surface-container-low text-[10px] tracking-[0.2em] font-cairo text-primary-container uppercase">
+                    Future-Proof Your Career
+                </div>
+<h1 class="text-5xl md:text-7xl font-headline font-extrabold tracking-tighter text-[#fafafa] leading-tight">Join the Future of Technology with <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container to-secondary">Golden Developer</span></h1>
+<p class="max-w-xl mx-auto font-cairo text-on-surface-variant text-lg leading-relaxed font-light">Explore exciting career opportunities and internships at a leading AI and software solutions company. Be part of a team that drives innovation, excellence, and digital transformation.</p>
+</div>
+<!-- CTA Section (Buttons) -->
+<div class="flex flex-col md:flex-row items-center justify-center gap-6 pt-8">
+<!-- Button 1: Career -->
+<a class="group relative flex items-center justify-center w-full md:w-64 px-8 py-5 bg-primary-container hover:bg-[#f7b31e] text-[#080808] font-bold rounded-xl transition-all duration-300 transform active:scale-95 shadow-2xl shadow-primary-container/20" href="https://docs.google.com/forms">
+<span class="font-cairo tracking-wide uppercase text-sm">Career</span>
+<span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<!-- Button 2: Internship -->
+<a class="group relative flex items-center justify-center w-full md:w-64 px-8 py-5 bg-primary-container hover:bg-[#f7b31e] text-[#080808] font-bold rounded-xl transition-all duration-300 transform active:scale-95 shadow-2xl shadow-primary-container/20" href="https://docs.google.com/forms">
+<span class="font-cairo tracking-wide uppercase text-sm">Internship / Hiring</span>
+<span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">work</span>
+</a>
+</div>
+<!-- Decorative Visual Element (Bento-lite Card) -->
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0e0e0e] w-full py-12 border-t border-[#534434]/15">
+<div class="flex flex-col md:flex-row justify-between items-center px-10 max-w-7xl mx-auto gap-8">
+<div class="text-[#d9c3ad] font-['Cairo'] text-[10px] tracking-[0.1em] uppercase">
+                © 2024 KINETIC MONOLITH. ALL RIGHTS RESERVED.
+            </div>
+<div class="flex gap-10">
+<a class="text-[#d9c3ad] hover:text-[#f49c04] transition-all font-['Cairo'] text-[10px] tracking-[0.1em] uppercase" href="#">PRIVACY</a>
+<a class="text-[#d9c3ad] hover:text-[#f49c04] transition-all font-['Cairo'] text-[10px] tracking-[0.1em] uppercase" href="#">TERMS</a>
+<a class="text-[#d9c3ad] hover:text-[#f49c04] transition-all font-['Cairo'] text-[10px] tracking-[0.1em] uppercase" href="#">CONTACT</a>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant/40">
+<span class="material-symbols-outlined text-sm">public</span>
+<span class="material-symbols-outlined text-sm">terminal</span>
+</div>
+</div>
+</footer>
+<!-- Decorative Gradient Mesh in Background (Non-intrusive) -->
+<div class="fixed top-0 right-0 w-[500px] h-[500px] bg-primary-container/5 blur-[120px] rounded-full -z-0"></div>
+<div class="fixed bottom-0 left-0 w-[400px] h-[400px] bg-secondary-container/10 blur-[100px] rounded-full -z-0"></div>
+</body></html>
